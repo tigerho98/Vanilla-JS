@@ -1,0 +1,59 @@
+.hidden {
+  display: none;
+}
+/* hidden이라는 class를 주면 해당요소를 숨길 것임 */
+.bgimg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  /* layer를 -1층으로 */
+  opacity: 0.8;
+}
+/* bgimg를 배경으로 만들기 */
+
+#clock {
+  font-size: 100px;
+  margin: 10px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+#login-form input,
+#todo-form input {
+  font-size: 20px;
+  color: #e0d2d2;
+  border: none;
+  background: rgba(105, 105, 105, 0);
+  text-align: center;
+  margin-bottom: 20px;
+}
+#todo-form input {
+  font-size: 15px;
+}
+input:nth-child(2) {
+  display: none;
+}
+
+input::placeholder {
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+  opacity: 0.9;
+}
+
+button {
+  background: rgba(105, 105, 105, 0);
+  border: none;
+}
+
+li {
+  list-style-type: none;
+}
