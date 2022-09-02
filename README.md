@@ -1,2 +1,2 @@
-# tigerho98.github.io
+# Vanilla JS
 javascript
